@@ -1,0 +1,4 @@
+{
+  "app_one": "http://localhost:4201/remoteEntry.json",
+  "app_two": "http://localhost:4202/remoteEntry.json"
+}

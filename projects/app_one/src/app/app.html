@@ -1,0 +1,9 @@
+<h1>App One</h1>
+
+<form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+  <label for="inputField">Input:</label>
+  <input id="inputField" formControlName="inputField" placeholder="Type something.." />
+  <input type="submit" value="Submit" />
+</form>
+
+<router-outlet />
